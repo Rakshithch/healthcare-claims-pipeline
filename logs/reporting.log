@@ -1,0 +1,11 @@
+2026-04-01 15:17:16  INFO      generate_report starting
+2026-04-01 15:17:16  INFO      Metrics JSON loaded
+2026-04-01 15:17:16  INFO      Rendering chart 1: denial rate by payer
+2026-04-01 15:17:17  INFO      Rendering chart 2: top 10 procedures
+2026-04-01 15:17:17  INFO      Rendering chart 3: provider performance scatter
+2026-04-01 15:17:17  INFO      Building HTML report
+2026-04-01 15:17:17  INFO      Report written to /Users/rakshithch/projects/healthcare-claims-pipeline/data/processed/report.html
+2026-04-01 15:17:17  INFO        denial_rate_by_payer.png: 51.8 KB
+2026-04-01 15:17:17  INFO        top_10_procedures.png: 134.9 KB
+2026-04-01 15:17:17  INFO        provider_performance.png: 99.1 KB
+2026-04-01 15:17:17  INFO        report.html: 386.3 KB

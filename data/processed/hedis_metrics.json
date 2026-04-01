@@ -1,0 +1,497 @@
+{
+  "diabetes_care_rate": [
+    {
+      "diabetes_care_rate_pct": 16.751269035532996,
+      "diabetic_patient_count": 33,
+      "total_patient_count": 197
+    }
+  ],
+  "denial_rate_by_payer": [
+    {
+      "insurance_type": "Commercial",
+      "total_claims": 451,
+      "denied_claims": 74,
+      "denial_rate_pct": 16.41
+    },
+    {
+      "insurance_type": "Medicaid",
+      "total_claims": 146,
+      "denied_claims": 12,
+      "denial_rate_pct": 8.22
+    },
+    {
+      "insurance_type": "Medicare",
+      "total_claims": 266,
+      "denied_claims": 45,
+      "denial_rate_pct": 16.92
+    },
+    {
+      "insurance_type": "Medicare Advantage",
+      "total_claims": 88,
+      "denied_claims": 13,
+      "denial_rate_pct": 14.77
+    },
+    {
+      "insurance_type": "Self-Pay",
+      "total_claims": 49,
+      "denied_claims": 6,
+      "denial_rate_pct": 12.24
+    }
+  ],
+  "avg_age_at_service_by_age_group": [
+    {
+      "age_group": "0-17",
+      "avg_age_at_service_days": 2425.95,
+      "claim_count": 19
+    },
+    {
+      "age_group": "18-34",
+      "avg_age_at_service_days": 9238.39,
+      "claim_count": 219
+    },
+    {
+      "age_group": "35-49",
+      "avg_age_at_service_days": 14847.26,
+      "claim_count": 160
+    },
+    {
+      "age_group": "50-64",
+      "avg_age_at_service_days": 20549.32,
+      "claim_count": 235
+    },
+    {
+      "age_group": "65-74",
+      "avg_age_at_service_days": 24408.05,
+      "claim_count": 223
+    },
+    {
+      "age_group": "75+",
+      "avg_age_at_service_days": 29716.89,
+      "claim_count": 144
+    }
+  ],
+  "top_10_procedures_by_volume": [
+    {
+      "procedure_code": "99396",
+      "description": "Preventive visit, established, 40-64 years",
+      "base_price": 280.0,
+      "total_claims": 62,
+      "total_claim_amount": 18350.01
+    },
+    {
+      "procedure_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "base_price": 50.0,
+      "total_claims": 61,
+      "total_claim_amount": 3210.17
+    },
+    {
+      "procedure_code": "90686",
+      "description": "Influenza vaccine, quadrivalent",
+      "base_price": 45.0,
+      "total_claims": 59,
+      "total_claim_amount": 2790.83
+    },
+    {
+      "procedure_code": "99204",
+      "description": "Office visit, new, moderate complexity",
+      "base_price": 260.0,
+      "total_claims": 57,
+      "total_claim_amount": 15569.98
+    },
+    {
+      "procedure_code": "36415",
+      "description": "Routine venipuncture",
+      "base_price": 25.0,
+      "total_claims": 56,
+      "total_claim_amount": 1512.76
+    },
+    {
+      "procedure_code": "93000",
+      "description": "ECG with interpretation",
+      "base_price": 90.0,
+      "total_claims": 55,
+      "total_claim_amount": 5217.14
+    },
+    {
+      "procedure_code": "45378",
+      "description": "Colonoscopy, diagnostic",
+      "base_price": 1200.0,
+      "total_claims": 55,
+      "total_claim_amount": 70898.61
+    },
+    {
+      "procedure_code": "99203",
+      "description": "Office visit, new, low complexity",
+      "base_price": 180.0,
+      "total_claims": 55,
+      "total_claim_amount": 10114.05
+    },
+    {
+      "procedure_code": "99232",
+      "description": "Subsequent hospital care",
+      "base_price": 350.0,
+      "total_claims": 54,
+      "total_claim_amount": 19545.75
+    },
+    {
+      "procedure_code": "99395",
+      "description": "Preventive visit, established, 18-39 years",
+      "base_price": 250.0,
+      "total_claims": 50,
+      "total_claim_amount": 13466.07
+    }
+  ],
+  "provider_performance": [
+    {
+      "provider_id": "PRV0001",
+      "avg_claim_amount": 1418.89,
+      "total_claims": 20,
+      "denied_claims": 1,
+      "denial_rate_pct": 5.0
+    },
+    {
+      "provider_id": "PRV0002",
+      "avg_claim_amount": 497.63,
+      "total_claims": 15,
+      "denied_claims": 3,
+      "denial_rate_pct": 20.0
+    },
+    {
+      "provider_id": "PRV0003",
+      "avg_claim_amount": 1513.24,
+      "total_claims": 19,
+      "denied_claims": 2,
+      "denial_rate_pct": 10.53
+    },
+    {
+      "provider_id": "PRV0004",
+      "avg_claim_amount": 1106.49,
+      "total_claims": 26,
+      "denied_claims": 1,
+      "denial_rate_pct": 3.85
+    },
+    {
+      "provider_id": "PRV0005",
+      "avg_claim_amount": 1010.39,
+      "total_claims": 22,
+      "denied_claims": 4,
+      "denial_rate_pct": 18.18
+    },
+    {
+      "provider_id": "PRV0006",
+      "avg_claim_amount": 1270.15,
+      "total_claims": 22,
+      "denied_claims": 5,
+      "denial_rate_pct": 22.73
+    },
+    {
+      "provider_id": "PRV0007",
+      "avg_claim_amount": 557.19,
+      "total_claims": 20,
+      "denied_claims": 1,
+      "denial_rate_pct": 5.0
+    },
+    {
+      "provider_id": "PRV0008",
+      "avg_claim_amount": 1945.19,
+      "total_claims": 22,
+      "denied_claims": 4,
+      "denial_rate_pct": 18.18
+    },
+    {
+      "provider_id": "PRV0009",
+      "avg_claim_amount": 558.4,
+      "total_claims": 20,
+      "denied_claims": 6,
+      "denial_rate_pct": 30.0
+    },
+    {
+      "provider_id": "PRV0010",
+      "avg_claim_amount": 690.97,
+      "total_claims": 23,
+      "denied_claims": 5,
+      "denial_rate_pct": 21.74
+    },
+    {
+      "provider_id": "PRV0011",
+      "avg_claim_amount": 2181.01,
+      "total_claims": 21,
+      "denied_claims": 1,
+      "denial_rate_pct": 4.76
+    },
+    {
+      "provider_id": "PRV0012",
+      "avg_claim_amount": 1828.99,
+      "total_claims": 12,
+      "denied_claims": 2,
+      "denial_rate_pct": 16.67
+    },
+    {
+      "provider_id": "PRV0013",
+      "avg_claim_amount": 1101.68,
+      "total_claims": 21,
+      "denied_claims": 3,
+      "denial_rate_pct": 14.29
+    },
+    {
+      "provider_id": "PRV0014",
+      "avg_claim_amount": 2011.86,
+      "total_claims": 15,
+      "denied_claims": 3,
+      "denial_rate_pct": 20.0
+    },
+    {
+      "provider_id": "PRV0015",
+      "avg_claim_amount": 1197.79,
+      "total_claims": 22,
+      "denied_claims": 2,
+      "denial_rate_pct": 9.09
+    },
+    {
+      "provider_id": "PRV0016",
+      "avg_claim_amount": 573.69,
+      "total_claims": 21,
+      "denied_claims": 5,
+      "denial_rate_pct": 23.81
+    },
+    {
+      "provider_id": "PRV0017",
+      "avg_claim_amount": 834.71,
+      "total_claims": 16,
+      "denied_claims": 5,
+      "denial_rate_pct": 31.25
+    },
+    {
+      "provider_id": "PRV0018",
+      "avg_claim_amount": 493.37,
+      "total_claims": 14,
+      "denied_claims": 0,
+      "denial_rate_pct": 0.0
+    },
+    {
+      "provider_id": "PRV0019",
+      "avg_claim_amount": 2826.33,
+      "total_claims": 14,
+      "denied_claims": 2,
+      "denial_rate_pct": 14.29
+    },
+    {
+      "provider_id": "PRV0020",
+      "avg_claim_amount": 529.63,
+      "total_claims": 27,
+      "denied_claims": 7,
+      "denial_rate_pct": 25.93
+    },
+    {
+      "provider_id": "PRV0021",
+      "avg_claim_amount": 3138.96,
+      "total_claims": 13,
+      "denied_claims": 2,
+      "denial_rate_pct": 15.38
+    },
+    {
+      "provider_id": "PRV0022",
+      "avg_claim_amount": 1346.26,
+      "total_claims": 25,
+      "denied_claims": 4,
+      "denial_rate_pct": 16.0
+    },
+    {
+      "provider_id": "PRV0023",
+      "avg_claim_amount": 1088.81,
+      "total_claims": 16,
+      "denied_claims": 3,
+      "denial_rate_pct": 18.75
+    },
+    {
+      "provider_id": "PRV0024",
+      "avg_claim_amount": 1627.21,
+      "total_claims": 18,
+      "denied_claims": 2,
+      "denial_rate_pct": 11.11
+    },
+    {
+      "provider_id": "PRV0025",
+      "avg_claim_amount": 3961.09,
+      "total_claims": 29,
+      "denied_claims": 1,
+      "denial_rate_pct": 3.45
+    },
+    {
+      "provider_id": "PRV0026",
+      "avg_claim_amount": 427.79,
+      "total_claims": 12,
+      "denied_claims": 1,
+      "denial_rate_pct": 8.33
+    },
+    {
+      "provider_id": "PRV0027",
+      "avg_claim_amount": 2351.32,
+      "total_claims": 12,
+      "denied_claims": 3,
+      "denial_rate_pct": 25.0
+    },
+    {
+      "provider_id": "PRV0028",
+      "avg_claim_amount": 333.63,
+      "total_claims": 20,
+      "denied_claims": 4,
+      "denial_rate_pct": 20.0
+    },
+    {
+      "provider_id": "PRV0029",
+      "avg_claim_amount": 1468.41,
+      "total_claims": 22,
+      "denied_claims": 4,
+      "denial_rate_pct": 18.18
+    },
+    {
+      "provider_id": "PRV0030",
+      "avg_claim_amount": 2321.16,
+      "total_claims": 18,
+      "denied_claims": 4,
+      "denial_rate_pct": 22.22
+    },
+    {
+      "provider_id": "PRV0031",
+      "avg_claim_amount": 412.14,
+      "total_claims": 17,
+      "denied_claims": 4,
+      "denial_rate_pct": 23.53
+    },
+    {
+      "provider_id": "PRV0032",
+      "avg_claim_amount": 2095.15,
+      "total_claims": 18,
+      "denied_claims": 2,
+      "denial_rate_pct": 11.11
+    },
+    {
+      "provider_id": "PRV0033",
+      "avg_claim_amount": 1582.33,
+      "total_claims": 21,
+      "denied_claims": 3,
+      "denial_rate_pct": 14.29
+    },
+    {
+      "provider_id": "PRV0034",
+      "avg_claim_amount": 572.95,
+      "total_claims": 23,
+      "denied_claims": 1,
+      "denial_rate_pct": 4.35
+    },
+    {
+      "provider_id": "PRV0035",
+      "avg_claim_amount": 1471.44,
+      "total_claims": 21,
+      "denied_claims": 2,
+      "denial_rate_pct": 9.52
+    },
+    {
+      "provider_id": "PRV0036",
+      "avg_claim_amount": 440.65,
+      "total_claims": 25,
+      "denied_claims": 3,
+      "denial_rate_pct": 12.0
+    },
+    {
+      "provider_id": "PRV0037",
+      "avg_claim_amount": 502.26,
+      "total_claims": 19,
+      "denied_claims": 2,
+      "denial_rate_pct": 10.53
+    },
+    {
+      "provider_id": "PRV0038",
+      "avg_claim_amount": 332.22,
+      "total_claims": 15,
+      "denied_claims": 3,
+      "denial_rate_pct": 20.0
+    },
+    {
+      "provider_id": "PRV0039",
+      "avg_claim_amount": 1399.26,
+      "total_claims": 18,
+      "denied_claims": 3,
+      "denial_rate_pct": 16.67
+    },
+    {
+      "provider_id": "PRV0040",
+      "avg_claim_amount": 2004.6,
+      "total_claims": 28,
+      "denied_claims": 3,
+      "denial_rate_pct": 10.71
+    },
+    {
+      "provider_id": "PRV0041",
+      "avg_claim_amount": 1124.91,
+      "total_claims": 20,
+      "denied_claims": 5,
+      "denial_rate_pct": 25.0
+    },
+    {
+      "provider_id": "PRV0042",
+      "avg_claim_amount": 1238.13,
+      "total_claims": 21,
+      "denied_claims": 6,
+      "denial_rate_pct": 28.57
+    },
+    {
+      "provider_id": "PRV0043",
+      "avg_claim_amount": 1427.55,
+      "total_claims": 16,
+      "denied_claims": 2,
+      "denial_rate_pct": 12.5
+    },
+    {
+      "provider_id": "PRV0044",
+      "avg_claim_amount": 1420.32,
+      "total_claims": 28,
+      "denied_claims": 5,
+      "denial_rate_pct": 17.86
+    },
+    {
+      "provider_id": "PRV0045",
+      "avg_claim_amount": 493.14,
+      "total_claims": 23,
+      "denied_claims": 2,
+      "denial_rate_pct": 8.7
+    },
+    {
+      "provider_id": "PRV0046",
+      "avg_claim_amount": 1246.94,
+      "total_claims": 19,
+      "denied_claims": 1,
+      "denial_rate_pct": 5.26
+    },
+    {
+      "provider_id": "PRV0047",
+      "avg_claim_amount": 428.11,
+      "total_claims": 22,
+      "denied_claims": 3,
+      "denial_rate_pct": 13.64
+    },
+    {
+      "provider_id": "PRV0048",
+      "avg_claim_amount": 2048.45,
+      "total_claims": 23,
+      "denied_claims": 3,
+      "denial_rate_pct": 13.04
+    },
+    {
+      "provider_id": "PRV0049",
+      "avg_claim_amount": 1031.78,
+      "total_claims": 28,
+      "denied_claims": 4,
+      "denial_rate_pct": 14.29
+    },
+    {
+      "provider_id": "PRV0050",
+      "avg_claim_amount": 1726.03,
+      "total_claims": 18,
+      "denied_claims": 3,
+      "denial_rate_pct": 16.67
+    }
+  ]
+}
