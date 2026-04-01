@@ -1,0 +1,49 @@
+services:
+
+  # ── PostgreSQL 16 ──────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: hc_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB:       healthcare_claims
+      POSTGRES_USER:     pipeline
+      POSTGRES_PASSWORD: pipeline
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"   # expose on 5433 to avoid clashing with a local Postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pipeline -d healthcare_claims"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  # ── Pipeline ───────────────────────────────────────────────────────────────
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    container_name: hc_pipeline
+    depends_on:
+      postgres:
+        condition: service_healthy   # wait until Postgres passes its healthcheck
+    environment:
+      DB_HOST:     postgres
+      DB_PORT:     5432
+      DB_NAME:     healthcare_claims
+      DB_USER:     pipeline
+      DB_PASSWORD: pipeline
+    volumes:
+      # Mount output dirs so generated files are accessible on the host
+      - ./data:/app/data
+      - ./logs:/app/logs
+    # Default CMD from Dockerfile runs the full pipeline.
+    # Uncomment below to run a single step instead:
+    # command: ["python", "src/ingestion/generate_data.py"]
+
+volumes:
+  pg_data:
+    driver: local

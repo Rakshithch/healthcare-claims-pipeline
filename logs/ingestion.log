@@ -8,3 +8,13 @@
   Invalid rows    : 0
   Rows inserted   : 1000
   Rows skipped    : 0  (already existed)
+2026-04-01 15:24:55  INFO      Starting claims ingestion
+2026-04-01 15:24:55  INFO      Table 'raw_claims' ready
+2026-04-01 15:24:55  INFO      CSV read complete: 1000 rows read, 0 invalid
+2026-04-01 15:24:55  INFO      
+=== Ingestion Summary ===
+  Total rows read : 1000
+  Valid rows      : 1000
+  Invalid rows    : 0
+  Rows inserted   : 1000
+  Rows skipped    : 0  (already existed)

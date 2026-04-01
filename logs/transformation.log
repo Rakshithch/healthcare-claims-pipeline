@@ -14,3 +14,15 @@
   dim_procedure : 20 new rows  (total unique proc codes: 20)
   fact_claims   : 1000 new rows  (total claims: 1000)
 2026-04-01 15:03:40  INFO      Done
+2026-04-01 15:24:56  INFO      Starting star schema transformation
+2026-04-01 15:24:56  INFO      Star schema tables ready
+2026-04-01 15:24:56  INFO      Reading raw_claims …
+2026-04-01 15:24:56  INFO        2000 rows loaded
+2026-04-01 15:24:56  INFO      Load complete:
+  dim_patient   : 0 new rows  (total unique patients: 197)
+  dim_provider  : 0 new rows  (total unique providers: 50)
+  dim_date      : 0 new rows  (total unique dates: 532)
+  dim_diagnosis : 0 new rows  (total unique dx codes: 20)
+  dim_procedure : 0 new rows  (total unique proc codes: 20)
+  fact_claims   : 1000 new rows  (total claims: 2000)
+2026-04-01 15:24:56  INFO      Done

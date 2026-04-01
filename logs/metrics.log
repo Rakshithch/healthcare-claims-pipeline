@@ -7,3 +7,12 @@
 2026-04-01 15:12:19  INFO      Metric 5: provider performance
 2026-04-01 15:12:19  INFO      All metrics computed
 2026-04-01 15:12:19  INFO      Metrics written to /Users/rakshithch/projects/healthcare-claims-pipeline/data/processed/hedis_metrics.json
+2026-04-01 15:24:56  INFO      hedis_metrics starting
+2026-04-01 15:24:56  INFO      Starting HEDIS metrics computation
+2026-04-01 15:24:56  INFO      Metric 1: diabetes care rate
+2026-04-01 15:24:56  INFO      Metric 2: denial rate by payer
+2026-04-01 15:24:56  INFO      Metric 3: avg age at service by age group
+2026-04-01 15:24:56  INFO      Metric 4: top 10 procedures by volume
+2026-04-01 15:24:56  INFO      Metric 5: provider performance
+2026-04-01 15:24:56  INFO      All metrics computed
+2026-04-01 15:24:56  INFO      Metrics written to /Users/rakshithch/projects/healthcare-claims-pipeline/data/processed/hedis_metrics.json
